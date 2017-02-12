@@ -57,7 +57,7 @@ GC종류
  응답속도가 매우 중요할 때 CMS GC를 이용하지만, 다른 GC보다 메모리를 많이 사용하며, Compaction 단계가 제공되지 않기 때문에 -> 조각난 메모리 관리를 해야함.
 
  - G1 GC :<br>
-![Alt text](images/g1-gc.png)
+![Alt text](images/g1-gc.png)<br>
  바둑판의 각 영역에 객체를 할당하고 GC를 실행.
 해당 영역이 꽉 차면 다른 영역에서 객체를 할당하고 GC를 실행.
 Young의 세가지 영역에서 데이터가  Old 영역으로 이동하는 단계가 사라진 GC방식.
