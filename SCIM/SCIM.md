@@ -113,16 +113,16 @@ Bulk = POST https://example.com/{v}/Bulk
  ```JAVA
  GET /ServiceProviderConfigs
  ```
-  - 응답 명세(?), 인증 스키마, 데이터 모델
+ - 응답 명세(?), 인증 스키마, 데이터 모델
 
   ```JAVA
   GET /ResourceTypes
   ```
-   - 이용가능한 자원의 type들을 찾기 위한 endpoint
+ - 이용가능한 자원의 type들을 찾기 위한 endpoint
 
-```JAVA
-   GET /Schemas
-```
+  ```JAVA
+  GET /Schemas
+  ```
  - 자원과 속성 확장을 조사
 
 
