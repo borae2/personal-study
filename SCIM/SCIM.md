@@ -196,7 +196,7 @@ Authorization: Bearer h480djs93hd8
 
 ### 10. GET Response
  - GET 요청의 응답으로 자원을 포함한다.
- - Etag 헤더는 자원을 이후 요청에서 수정할 수 없도록 막는다. (병행성)
+ - Etag 헤더는 자원을 이후 요청에서 수정할 수 없도록 막는다. (Concurrency)
 
 ```JAVA
 HTTP/1.1 200 OK
