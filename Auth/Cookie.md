@@ -29,7 +29,7 @@ Set-Cookie: PHPSESSID=AB1234kjsdf9u2348djhd73; httpOnly; SameSite=None; secure;
 
 ## 결론
 * 웍스는 현재 SameSite 설정 하지 않고있음.
-* default는 ???
+* default는 None ( https://tools.ietf.org/html/draft-west-cookie-incrementalism-00#section-3.1 )
 * domain 경로로 관리하고있음
 * isRefreshed 활용?
 
