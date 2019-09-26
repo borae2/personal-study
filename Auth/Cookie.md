@@ -27,6 +27,9 @@ Set-Cookie: PHPSESSID=AB1234kjsdf9u2348djhd73; httpOnly; SameSite=None; secure;
 ### firefox
 * 60 버젼부터 SameSite 쿠키 지원
 
+### Compatibility
+![Alt text](images/compability.png)
+
 ## 결론
 * 웍스는 현재 SameSite 설정 하지 않고있음.
 * default는 None ( https://tools.ietf.org/html/draft-west-cookie-incrementalism-00#section-3.1 )
@@ -43,3 +46,8 @@ Set-Cookie: PHPSESSID=AB1234kjsdf9u2348djhd73; httpOnly; SameSite=None; secure;
 * https://www.chromestatus.com/feature/5633521622188032
 * https://tools.ietf.org/html/draft-ietf-httpbis-rfc6265bis-02#section-5.3.7
 * https://www.owasp.org/index.php/SameSite (default value?)
+
+
+
+![Alt text](images/strict.png)
+![Alt text](images/lax.png)
