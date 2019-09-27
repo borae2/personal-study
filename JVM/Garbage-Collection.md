@@ -32,6 +32,7 @@
 - (참고) TLABs(Thread-Local Allocation Buffers) : thread-safe 하게 위를 실행 / 각 thread별 할당된 Eden 영역만 검사
 
 <br/>
+
 ### 3. Old 영역 GC
 GC종류
  - Serial GC
@@ -39,7 +40,8 @@ GC종류
  - Parallel Old GC
  - Concurrent Mark & Sweep GC(CMS)
  - G1(Garbage First) GC
-------
+<br><br>
+
  - Serial GC : Mark(Old 영역에 살아있는 객체 식별) -> Sweep(힙 앞 부분부터 확인하여 살아있는 것만 남긴다) -> Compaction(각 객체들이 연속되게 쌓이도록 힙의 가장 앞 부분부터 채운다)
   적은 메모리와 코어의 개수가 적을 때.
 
